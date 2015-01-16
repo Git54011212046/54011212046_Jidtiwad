@@ -20,3 +20,8 @@ var firstItem = shoppingList[0]
 shoppingList[0] = "Six eggs"
 shoppingList[0...3] = ["Bananas","Apples"]
 shoppingList
+
+//remove value frome array
+let apple = shoppingList.removeLast()
+let mapleSyrup = shoppingList.removeAtIndex(0)
+shoppingList
