@@ -52,5 +52,5 @@ class calculator {
         println("result \(result)")
     }
 }
-let calculate = calculator(label: "*", value1: 15, value2: 4.7)
+let calculate = calculator(label: "/", value1: 15, value2: 4.7)
 
