@@ -31,6 +31,7 @@ class ViewController: UIViewController {
         oneOutlet.text = "0"
         twoOutlet.text = "0"
         threeOutlet.text = "0"
+        subCount = 0
     }
     override func viewDidLoad() {
         super.viewDidLoad()
