@@ -18,9 +18,8 @@ class counting {
     
     init () {}
     
-    func oneClick(oneValue: Int) ->Int {
+    func oneClick(oneValue: Int) {
         subCount = oneValue + 1
-        return subCount
         
     }
     func twoClick() ->Int {

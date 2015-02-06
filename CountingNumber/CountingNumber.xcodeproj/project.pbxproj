@@ -13,7 +13,6 @@
 		FDC32BA11A84B9F000E2EAC5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDC32BA01A84B9F000E2EAC5 /* Images.xcassets */; };
 		FDC32BA41A84B9F000E2EAC5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FDC32BA21A84B9F000E2EAC5 /* LaunchScreen.xib */; };
 		FDC32BB01A84B9F000E2EAC5 /* CountingNumberTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC32BAF1A84B9F000E2EAC5 /* CountingNumberTests.swift */; };
-		FDC32BBA1A84BBFC00E2EAC5 /* counting.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC32BB91A84BBFC00E2EAC5 /* counting.swift */; };
 		FDC32BBC1A84C63F00E2EAC5 /* Apple_Photo_App_Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = FDC32BBB1A84C63F00E2EAC5 /* Apple_Photo_App_Icon.png */; };
 /* End PBXBuildFile section */
 
@@ -38,7 +37,6 @@
 		FDC32BA91A84B9F000E2EAC5 /* CountingNumberTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CountingNumberTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDC32BAE1A84B9F000E2EAC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FDC32BAF1A84B9F000E2EAC5 /* CountingNumberTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountingNumberTests.swift; sourceTree = "<group>"; };
-		FDC32BB91A84BBFC00E2EAC5 /* counting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = counting.swift; path = ../../counting.swift; sourceTree = "<group>"; };
 		FDC32BBB1A84C63F00E2EAC5 /* Apple_Photo_App_Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Apple_Photo_App_Icon.png; path = ../../../../Downloads/Apple_Photo_App_Icon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -84,7 +82,6 @@
 				FDC32B991A84B9F000E2EAC5 /* AppDelegate.swift */,
 				FDC32B9B1A84B9F000E2EAC5 /* ViewController.swift */,
 				FDC32B9D1A84B9F000E2EAC5 /* Main.storyboard */,
-				FDC32BB91A84BBFC00E2EAC5 /* counting.swift */,
 				FDC32BA01A84B9F000E2EAC5 /* Images.xcassets */,
 				FDC32BA21A84B9F000E2EAC5 /* LaunchScreen.xib */,
 				FDC32B971A84B9F000E2EAC5 /* Supporting Files */,
@@ -221,7 +218,6 @@
 			files = (
 				FDC32B9C1A84B9F000E2EAC5 /* ViewController.swift in Sources */,
 				FDC32B9A1A84B9F000E2EAC5 /* AppDelegate.swift in Sources */,
-				FDC32BBA1A84BBFC00E2EAC5 /* counting.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,6 +409,7 @@
 				FDC32BB51A84B9F000E2EAC5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FDC32BB61A84B9F000E2EAC5 /* Build configuration list for PBXNativeTarget "CountingNumberTests" */ = {
 			isa = XCConfigurationList;
@@ -421,6 +418,7 @@
 				FDC32BB81A84B9F000E2EAC5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -5,7 +5,7 @@ import UIKit
 
 var array1 = ["abc", "def", "ghi"]
 for (var i = 0; i < array1.count; i++) {
-    println(array1[i])
+    println(array1[0])
 }
 
 var array2 = ["a", "b", "c"]
