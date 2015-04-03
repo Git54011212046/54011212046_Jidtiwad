@@ -1,0 +1,430 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FDAD7F811ACE6B25009AA450 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDAD7F801ACE6B25009AA450 /* AppDelegate.swift */; };
+		FDAD7F831ACE6B25009AA450 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDAD7F821ACE6B25009AA450 /* ViewController.swift */; };
+		FDAD7F861ACE6B25009AA450 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDAD7F841ACE6B25009AA450 /* Main.storyboard */; };
+		FDAD7F881ACE6B25009AA450 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDAD7F871ACE6B25009AA450 /* Images.xcassets */; };
+		FDAD7F8B1ACE6B25009AA450 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FDAD7F891ACE6B25009AA450 /* LaunchScreen.xib */; };
+		FDAD7F971ACE6B25009AA450 /* animationSliderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDAD7F961ACE6B25009AA450 /* animationSliderTests.swift */; };
+		FDAD7FA11ACE73AA009AA450 /* Tropical_Fish_1_by_it_s.png in Resources */ = {isa = PBXBuildFile; fileRef = FDAD7FA01ACE73AA009AA450 /* Tropical_Fish_1_by_it_s.png */; };
+		FDAD7FD31ACE9299009AA450 /* redarrow_01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FDAD7FD21ACE9299009AA450 /* redarrow_01.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FDAD7F911ACE6B25009AA450 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDAD7F731ACE6B25009AA450 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDAD7F7A1ACE6B25009AA450;
+			remoteInfo = animationSlider;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FDAD7F7B1ACE6B25009AA450 /* animationSlider.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = animationSlider.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDAD7F7F1ACE6B25009AA450 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDAD7F801ACE6B25009AA450 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FDAD7F821ACE6B25009AA450 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FDAD7F851ACE6B25009AA450 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FDAD7F871ACE6B25009AA450 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FDAD7F8A1ACE6B25009AA450 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		FDAD7F901ACE6B25009AA450 /* animationSliderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = animationSliderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDAD7F951ACE6B25009AA450 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDAD7F961ACE6B25009AA450 /* animationSliderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = animationSliderTests.swift; sourceTree = "<group>"; };
+		FDAD7FA01ACE73AA009AA450 /* Tropical_Fish_1_by_it_s.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Tropical_Fish_1_by_it_s.png; path = ../../../../Downloads/Tropical_Fish_1_by_it_s.png; sourceTree = "<group>"; };
+		FDAD7FD21ACE9299009AA450 /* redarrow_01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = redarrow_01.jpg; path = ../../../../Downloads/redarrow_01.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FDAD7F781ACE6B25009AA450 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDAD7F8D1ACE6B25009AA450 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FDAD7F721ACE6B25009AA450 = {
+			isa = PBXGroup;
+			children = (
+				FDAD7F7D1ACE6B25009AA450 /* animationSlider */,
+				FDAD7F931ACE6B25009AA450 /* animationSliderTests */,
+				FDAD7F7C1ACE6B25009AA450 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FDAD7F7C1ACE6B25009AA450 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FDAD7F7B1ACE6B25009AA450 /* animationSlider.app */,
+				FDAD7F901ACE6B25009AA450 /* animationSliderTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FDAD7F7D1ACE6B25009AA450 /* animationSlider */ = {
+			isa = PBXGroup;
+			children = (
+				FDAD7F801ACE6B25009AA450 /* AppDelegate.swift */,
+				FDAD7F821ACE6B25009AA450 /* ViewController.swift */,
+				FDAD7F841ACE6B25009AA450 /* Main.storyboard */,
+				FDAD7F871ACE6B25009AA450 /* Images.xcassets */,
+				FDAD7F891ACE6B25009AA450 /* LaunchScreen.xib */,
+				FDAD7F7E1ACE6B25009AA450 /* Supporting Files */,
+			);
+			path = animationSlider;
+			sourceTree = "<group>";
+		};
+		FDAD7F7E1ACE6B25009AA450 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FDAD7FD21ACE9299009AA450 /* redarrow_01.jpg */,
+				FDAD7FA01ACE73AA009AA450 /* Tropical_Fish_1_by_it_s.png */,
+				FDAD7F7F1ACE6B25009AA450 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FDAD7F931ACE6B25009AA450 /* animationSliderTests */ = {
+			isa = PBXGroup;
+			children = (
+				FDAD7F961ACE6B25009AA450 /* animationSliderTests.swift */,
+				FDAD7F941ACE6B25009AA450 /* Supporting Files */,
+			);
+			path = animationSliderTests;
+			sourceTree = "<group>";
+		};
+		FDAD7F941ACE6B25009AA450 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FDAD7F951ACE6B25009AA450 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FDAD7F7A1ACE6B25009AA450 /* animationSlider */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDAD7F9A1ACE6B25009AA450 /* Build configuration list for PBXNativeTarget "animationSlider" */;
+			buildPhases = (
+				FDAD7F771ACE6B25009AA450 /* Sources */,
+				FDAD7F781ACE6B25009AA450 /* Frameworks */,
+				FDAD7F791ACE6B25009AA450 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = animationSlider;
+			productName = animationSlider;
+			productReference = FDAD7F7B1ACE6B25009AA450 /* animationSlider.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FDAD7F8F1ACE6B25009AA450 /* animationSliderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDAD7F9D1ACE6B25009AA450 /* Build configuration list for PBXNativeTarget "animationSliderTests" */;
+			buildPhases = (
+				FDAD7F8C1ACE6B25009AA450 /* Sources */,
+				FDAD7F8D1ACE6B25009AA450 /* Frameworks */,
+				FDAD7F8E1ACE6B25009AA450 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDAD7F921ACE6B25009AA450 /* PBXTargetDependency */,
+			);
+			name = animationSliderTests;
+			productName = animationSliderTests;
+			productReference = FDAD7F901ACE6B25009AA450 /* animationSliderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FDAD7F731ACE6B25009AA450 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = iStudents;
+				TargetAttributes = {
+					FDAD7F7A1ACE6B25009AA450 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					FDAD7F8F1ACE6B25009AA450 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = FDAD7F7A1ACE6B25009AA450;
+					};
+				};
+			};
+			buildConfigurationList = FDAD7F761ACE6B25009AA450 /* Build configuration list for PBXProject "animationSlider" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FDAD7F721ACE6B25009AA450;
+			productRefGroup = FDAD7F7C1ACE6B25009AA450 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FDAD7F7A1ACE6B25009AA450 /* animationSlider */,
+				FDAD7F8F1ACE6B25009AA450 /* animationSliderTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FDAD7F791ACE6B25009AA450 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDAD7F861ACE6B25009AA450 /* Main.storyboard in Resources */,
+				FDAD7FA11ACE73AA009AA450 /* Tropical_Fish_1_by_it_s.png in Resources */,
+				FDAD7F8B1ACE6B25009AA450 /* LaunchScreen.xib in Resources */,
+				FDAD7FD31ACE9299009AA450 /* redarrow_01.jpg in Resources */,
+				FDAD7F881ACE6B25009AA450 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDAD7F8E1ACE6B25009AA450 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FDAD7F771ACE6B25009AA450 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDAD7F831ACE6B25009AA450 /* ViewController.swift in Sources */,
+				FDAD7F811ACE6B25009AA450 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDAD7F8C1ACE6B25009AA450 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDAD7F971ACE6B25009AA450 /* animationSliderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FDAD7F921ACE6B25009AA450 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FDAD7F7A1ACE6B25009AA450 /* animationSlider */;
+			targetProxy = FDAD7F911ACE6B25009AA450 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FDAD7F841ACE6B25009AA450 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDAD7F851ACE6B25009AA450 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FDAD7F891ACE6B25009AA450 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDAD7F8A1ACE6B25009AA450 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FDAD7F981ACE6B25009AA450 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FDAD7F991ACE6B25009AA450 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FDAD7F9B1ACE6B25009AA450 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = animationSlider/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FDAD7F9C1ACE6B25009AA450 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = animationSlider/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FDAD7F9E1ACE6B25009AA450 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = animationSliderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/animationSlider.app/animationSlider";
+			};
+			name = Debug;
+		};
+		FDAD7F9F1ACE6B25009AA450 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = animationSliderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/animationSlider.app/animationSlider";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FDAD7F761ACE6B25009AA450 /* Build configuration list for PBXProject "animationSlider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDAD7F981ACE6B25009AA450 /* Debug */,
+				FDAD7F991ACE6B25009AA450 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDAD7F9A1ACE6B25009AA450 /* Build configuration list for PBXNativeTarget "animationSlider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDAD7F9B1ACE6B25009AA450 /* Debug */,
+				FDAD7F9C1ACE6B25009AA450 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDAD7F9D1ACE6B25009AA450 /* Build configuration list for PBXNativeTarget "animationSliderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDAD7F9E1ACE6B25009AA450 /* Debug */,
+				FDAD7F9F1ACE6B25009AA450 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FDAD7F731ACE6B25009AA450 /* Project object */;
+}
